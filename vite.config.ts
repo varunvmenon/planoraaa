@@ -2,13 +2,13 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/ai/', // Ensure this matches your GitHub repo name
+  base: '/planoraiii/', // Update with your new repository name
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
   build: {
-    outDir: 'dist', // Ensures output is in the correct folder
+    outDir: 'dist', // Ensures the correct output folder
     emptyOutDir: true,
   },
 });
